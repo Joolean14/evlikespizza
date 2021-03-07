@@ -1,66 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+#F2A2C0
+#5138F2
+#020126
+#038C4C
+#F2A03D */
+
+
 /*
  * Globals
  */
- .bd-placeholder-img {
+ body {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5138F2;
+}
+
+h1 {
+    color: #F2A2C0 !important;
+    margin: 5% 0 5% 0;
+}
+
+h3 {
+    color: #F2A03D;
+}
+
+iframe {
+    margin-top: 3%;
+}
+
+.bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-  }
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
 }
 
 
 /*
  * Base structure
  */
+ 
 
-body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-}
 
 .cover-container {
-  max-width: 42em;
+    max-width: 42em;
 }
 
 
 /*
- * Header
- */
+* Header
+*/
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+    border-bottom-color: #F2A03D;
 }
 
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 1rem;
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+    color: #F2A03D;
+    border-bottom-color: #F2A03D;
 }
 
+.content {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(/img/cosas-guardadas.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: red 2px solid */
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
