@@ -50,6 +50,14 @@ video {
     height: auto   !important;
 }
 
+.yt-spotify-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -138,4 +146,7 @@ footer {
     video {
         width: 50vw;
     }
+
+    .yt-spotify-container {
+        flex-direction: row;
 }
