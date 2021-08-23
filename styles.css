@@ -167,7 +167,7 @@ footer {
 	color: #1f2029;
 } */
 
-.section{
+/* .section{
   position: relative;
   width: 100%;
   display: block;
@@ -180,7 +180,7 @@ footer {
 }
 .full-height{
   min-height: 100vh;
-}
+} */
 
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
@@ -190,7 +190,7 @@ footer {
 .modal-btn:checked + label,
 .modal-btn:not(:checked) + label{
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   font-weight: 500;
   font-size: 15px;
   line-height: 2;
@@ -244,7 +244,6 @@ footer {
   font-size: 18px;
   background-color: #0051BA;
   color: #04D960;
-  /* font-family: 'unicons'; */
   content: 'X'; 
   box-shadow: 0 12px 25px 0 rgba(16,39,112,.25);
   transition: all 200ms linear;
